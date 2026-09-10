@@ -1,0 +1,33 @@
+# Ideal Gitignore for Fullstack Spring Boot + React Project
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Build & Dependency Outputs - Backend (Java / Maven)
+backend/target/
+backend/bin/
+*.class
+*.jar
+*.war
+
+# Build & Dependency Outputs - Frontend (Node / React)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.npm
+*.log
+
+# Environment & Temp Files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Internal / Scratch files
+brain/
+data/
